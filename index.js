@@ -1,10 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const token = process.env.token;
-const welcomeChannelName = "일반";
-const byeChannelName = "일반";
-const welcomeChannelComment = "누구세요";
-const byeChannelComment = "드디어 서버 나갔네 씨발람ㅋㅋ";
 
 client.on('ready', () => {
   console.log('야스봇 on');
